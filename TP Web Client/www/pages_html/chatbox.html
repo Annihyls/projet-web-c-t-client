@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>ChatBox</title>
+		<link rel="stylesheet" href="../fichier_css/basic_style.css" type="text/css">
+		<meta name="description" content="Cette page contient la chatbox pour envoyer des messages">
+		<meta name="author" content="Gimbert Vincent">
+	</head>
+	<body>
+		<section>
+			<h1>Commentez !</h1>
+			<p class= "erreur" id = "erreur"> </p>
+			<div class="Messages">
+				<div class="message">
+					<span class="date"></span>
+					<span class="heure"></span>
+					<span class="auteur"></span>
+					<span class="contenu"></span>
+				</div>
+			</div>
+			<div class="envoi message">
+				<form action="../htbin/chatsend.py" method="POST">
+					<input type="text" name="msg" id="msg" placeholder="Tapez votre commentaire ici !" autocomplete="off">
+					<button type="submit">Envoyer</button>
+				</form>
+			</div>	
+		</section>
+		<script src="../javascript/chatbox.js"></script>
+		<noscript> ATTENTION ! Javascript est nécessaire pour pouvoir communiquer avec les autres ! Veuillez l'activer !</noscript>
+		<a class="accueil" href="../index.html">Retour &agrave; la page d'accueil</a>
+	</body>
+</html>

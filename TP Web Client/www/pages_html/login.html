@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href="../fichier_css/reset.css" type="text/css"/>
+		<link rel="stylesheet" href="../fichier_css/basic_style.css" type="text/css"/>
+		<meta charset = "utf-8">
+		<title>Connexion</title>
+		<meta name="author" content="Gimbert Vincent">
+		<meta name="description" content="Pour vous connecter après vous être inscrit">
+	</head>
+	<body>
+		<div class="content">
+			<form id="login" name="login" method="post" action="../htbin/login.py">																			
+				<label class="login" for="username">Nom d'utilisateur: <input id="username" name="username" type="text"/></label>				
+				<label class="login" for="userpwd">Mot de passe: <input id="userpwd" name="userpwd" type="password"/></label>				
+				<input class="submit" type="submit" value="Soumettre"/>
+				<input class="erase" type="reset" value="Effacer tous les champs" />
+			</form>
+			<p id="texte"> </p>
+			<script src="../javascript/login.js"></script>
+			<noscript> ATTENTION ! Javascript est nécessaire pour pouvoir vous connecter ! Veuillez l'activer !</noscript>
+			<a class="accueil" href="../index.html">Retour &agrave; la page d'accueil</a>
+		</div>
+	</body>
+</html>

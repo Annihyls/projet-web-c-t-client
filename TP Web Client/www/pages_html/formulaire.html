@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href="../fichier_css/reset.css" type="text/css"/>
+		<link rel="stylesheet" href="../fichier_css/basic_style.css" type="text/css"/>
+		<meta charset = "utf-8">
+		<title>Formulaire</title>
+		<meta name="author" content="Gimbert Vincent">
+		<meta name="description" content="formulaire pour vous inscrire">
+	</head>
+	<body>
+		<div class="content">
+			<form  id="formulaire" name="formulaire" method="post" action="../htbin/register.py">																			
+				<label class="formulaire" for="lastname">Nom: <input id="lastname" name="lastname" type="text"/></label>
+				<label class="formulaire" for="firstname">Prénom: <input id="firstname" name="firstname" type="text"/></label>
+				<label class="formulaire" for="birthdate">Date de naissance: <input id="birthdate" name="birthdate" placeholder="jj/mm/aaaa" type="text"/></label>
+				<label class="formulaire" for="username">Nom d'utilisateur: <input id="username" name="username" type="text"/></label>				
+				<label class="formulaire" for="userpwd">Mot de passe: <input id="userpwd" name="userpwd" type="password"/></label>				
+				<label class="formulaire" for="useremail">Adresse EMail: <input id="useremail" name="useremail" placeholder="exemple@email.fr" type="text"/></label>	
+				<input class="submit" type="submit" value="Soumettre"/>
+				<input class="erase" type="reset" value="Effacer tous les champs" />
+			</form>
+			<p class= "erreur" id = "erreur"> </p>
+			<script src="../javascript/register.js"></script>
+			<noscript> ATTENTION ! Javascript est nécessaire pour pouvoir vous inscrire ! Veuillez l'activer !</noscript>
+			<a class="accueil" href="../index.html">Retour &agrave; la page d'accueil</a>
+		</div>
+	</body>
+</html>

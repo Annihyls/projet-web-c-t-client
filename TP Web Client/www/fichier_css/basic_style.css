@@ -1,0 +1,560 @@
+h1{
+	font-weight: bolder;
+	font-family: sans-serif;
+	font-size: 350%;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+h2{
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 250%;
+	text-align: center;
+	margin-bottom: 4%;
+	margin-top: 4%;
+}
+
+h2:before{
+	content: '';
+	display: inline-block;
+	height: 40px;
+	width: 50px;
+	background-size: 40px;
+	background-image: url(../img/icon1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right:1%;
+}
+
+h2:after{
+	content: '';
+	display: inline-block;
+	height: 40px;
+	width: 50px;
+	background-size: 40px;
+	background-image: url(../img/icon1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 1%;
+}
+
+li{
+	list-style-image: url(../img/icon3.png);
+	padding-right: 5%;
+}
+
+.submenu{
+	list-style-image: url(../img/icon2.png);
+	margin-left: 5%;
+}
+
+em{
+	font-style : italic;
+	
+}
+
+strong{
+	font-weight: bold;
+}
+
+header{
+	text-align: center;
+}
+
+body{
+	text-align: justify;
+	margin: auto;
+	background-image: url(../img/background_img.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	max-width: 1920px;
+	max-height:1080px;
+	min-width: 360px;
+	min-height:240px;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.chapo{
+	padding: 8px;
+	text-align: center;
+	border-radius: 10px 10px 10px 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 5%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.sommaire{
+	background-color: rgba(255, 255, 255, 0.8);
+	display: flex;
+	flex-direction: column;
+	float: left;
+	padding: 8px;
+	border-radius: 10px 10px 10px 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 3%;
+}
+
+.sommaire:before{
+	content: "Sommaire :";
+	font-weight: bold;
+	margin-bottom: 4%;
+}
+
+.sommaire_title{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+article{
+	background-color: rgba(180, 180, 180, 0.95);
+	border-radius: 10px 10px 10px 10px;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.77);
+	text-align: center;
+	color: white;
+}
+
+p {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	border: 1px solid black;
+}
+
+.colossus_pic{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+figcaption{
+	margin-left: 5%;
+}
+
+.map{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+audio{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.music_fledbox{
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 8px;
+	border-radius: 10px 10px 10px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+video{
+	height: 85%;
+	width: 85%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.video_fledbox{
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 8px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.navigation_autre_pages_html{
+	display: flex;
+	flex-direction: column;
+	position:fixed;
+	top: 0;
+}
+
+.navigation_autre_pages_html:before{
+	content: "Autres articles : ";
+	margin: auto;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.nav_img_spider{
+	background-size: 100%;
+	width: 100%;
+	height: 140px;
+	background-image: url(../img/SpiderArticleLogo.jpg);
+	background-position : 0 0;
+	background-repeat : no-repeat;
+	margin: 1%;
+	padding: 8px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.nav_img_roc{
+	background-size: 100%;
+	width: 100%;
+	height: 140px;
+	background-image: url(../img/RocArticleLogo.jpg);
+	background-position : 0 0;
+	background-repeat : no-repeat;
+	margin: 1%;
+	padding: 8px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.nav_img_worm{
+	background-size: 100%;
+	width: 100%;
+	height: 140px;
+	background-image: url(../img/WormArticleLogo.jpg);
+	background-position : 0 0;
+	background-repeat : no-repeat;
+	margin: 1%;
+	padding: 8px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.nav_img_phoenix{
+	background-size: 100%;
+	width: 100%;
+	height: 140px;
+	background-image: url(../img/PhoenixArticleLogo.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	margin: 1%;
+	padding: 8px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.nav_img_phoenix:hover{
+	border: 2px solid black;
+}
+
+.nav_img_spider:hover{
+	border: 2px solid black;
+}
+
+.nav_img_roc:hover{
+	border: 2px solid black;
+}
+
+.nav_img_worm:hover{
+	border: 2px solid black;
+}
+
+.SOTC_title{
+	content: '';
+	display:inline-block;
+	height: 200px;
+	width: 300px;
+	background-size: 300px;
+	background-image: url(../img/logo_sotc.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+ul{
+	margin-left: 3%;
+}
+
+form{
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.77);
+	border-radius: 10px;
+}
+
+.content{
+	display:flex;
+	flex-direction: column;
+	position: relative;
+	width: 450px;
+	min-height: 600px;
+	max-height: 600px;
+	height: auto;
+	margin: auto;
+	margin-top: 5%;
+	margin-right:15%;
+	margin-left:15%;
+	align-items: center;
+	justify-content: center;
+	left: 25%;
+	transform: translate(-5%,0%);
+	background-color: rgba(156, 156, 156, 0.8);
+	border-radius: 10px;
+	padding:8px;
+}
+
+.accueil{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-top: 5%;
+	margin-right: 25%;
+	margin-left: 25%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.erreur{
+	display: flex;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	justify-content: center;
+	position: relative;
+	margin-top: 5%;
+}
+
+.formulaire{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 10%;
+	font-size: large;
+}
+
+.submit{
+	display: flex;
+	left: 100%;
+	transform: translate(150%,0);
+	margin-top: 5%;
+}
+
+.erase{
+	display: flex;
+	left: 100%;
+	transform: translate(50%,0);
+	margin-top: 2%;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	margin-right:15%;
+	margin-left:15%;
+	background-color: rgba(156, 156, 156, 0.8);
+	border-radius: 10px;
+	padding:8px;	
+}
+
+.Messages{
+	width: 80%;
+	background-color:white;
+	box-shadow: 0px 0px 15px black;
+	border-radius: 5px;
+	overflow: scroll;
+	min-height: 250px;
+	max-height: 250px;
+	overflow-x: hidden;
+}
+
+@media screen and (max-width: 1000px){
+	.navigation_autre_pages_html:before{
+		content: "Autres articles : ";
+		margin: auto;
+		font-weight: bold;
+		font-size: 75%;
+	}
+	.SOTC_title{
+		content: '';
+		display:inline-block;
+		height: 100px;
+		width: 100px;
+		background-size: 100px;
+		background-image: url(../img/logo_sotc.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	main{
+		display: flex;
+		margin: auto;
+		flex-direction: column;
+		padding-left: 15%;
+		padding-right: 2%;
+	}
+	p {
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	.nav_img_spider{
+		background-size: 100%;
+		width: 55%;
+		height: 60px;
+		background-image: url(../img/SpiderArticleLogo.jpg);
+		background-position : 0 0;
+		background-repeat : no-repeat;
+		margin:1%;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px;
+	}
+	.nav_img_roc{
+		background-size: 100%;
+		width: 55%;
+		height: 60px;
+		background-image: url(../img/RocArticleLogo.jpg);
+		background-position : 0 0;
+		background-repeat : no-repeat;
+		margin:1%;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px;
+	}
+	.nav_img_worm{
+		background-size: 100%;
+		width: 55%;
+		height: 60px;
+		background-image: url(../img/WormArticleLogo.jpg);
+		background-position : 0 0;
+		background-repeat : no-repeat;
+		margin:1%;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px;
+	}
+	.nav_img_phoenix{
+		background-size: 100%;
+		width: 55%;
+		height: 60px;
+		background-image: url(../img/PhoenixArticleLogo.jpg);
+		background-position : 0 0;
+		background-repeat : no-repeat;
+		margin:1%;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px;
+	}
+}
+@media screen and (max-width: 600px){
+	.navigation_autre_pages_html:before{
+		content: "Autres articles : ";
+		margin: auto;
+		font-weight: bold;
+		font-size: 50%;
+	}
+	.nav_img_spider{
+		background-size: 100%;
+		width: 38%;
+		height: 30px;
+		background-image: url(../img/SpiderArticleLogo.jpg);
+		background-position : 0 0;
+		background-repeat : no-repeat;
+		margin:1%;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px;
+	}
+	.nav_img_roc{
+		background-size: 100%;
+		width: 38%;
+		height: 30px;
+		background-image: url(../img/RocArticleLogo.jpg);
+		background-position : 0 0;
+		background-repeat : no-repeat;
+		margin:1%;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px;
+	}
+	.nav_img_worm{
+		background-size: 100%;
+		width: 38%;
+		height: 30px;
+		background-image: url(../img/WormArticleLogo.jpg);
+		background-position : 0 0;
+		background-repeat : no-repeat;
+		margin:1%;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px;
+	}
+	.nav_img_phoenix{
+		background-size: 100%;
+		width: 38%;
+		height: 30px;
+		background-image: url(../img/PhoenixArticleLogo.jpg);
+		background-position : 0 0;
+		background-repeat : no-repeat;
+		margin:1%;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px;
+	}
+}
+@media screen and (max-width: 420px){
+	.navigation_autre_pages_html:before{
+		content: "Autres articles : ";
+		margin: auto;
+		font-weight: bold;
+		font-size: 35%;
+	}
+	.nav_img_spider{
+		background-size: 100%;
+		width: 38%;
+		height: 22px;
+		background-image: url(../img/SpiderArticleLogo.jpg);
+		background-position : 0 0;
+		background-repeat : no-repeat;
+		margin:1%;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px;
+	}
+	.nav_img_roc{
+		background-size: 100%;
+		width: 38%;
+		height: 22px;
+		background-image: url(../img/RocArticleLogo.jpg);
+		background-position : 0 0;
+		background-repeat : no-repeat;
+		margin:1%;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px;
+	}
+	.nav_img_worm{
+		background-size: 100%;
+		width: 38%;
+		height: 22px;
+		background-image: url(../img/WormArticleLogo.jpg);
+		background-position : 0 0;
+		background-repeat : no-repeat;
+		margin:1%;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px;
+	}
+	.nav_img_phoenix{
+		background-size: 100%;
+		width: 38%;
+		height: 22px;
+		background-image: url(../img/PhoenixArticleLogo.jpg);
+		background-position : 0 0;
+		background-repeat : no-repeat;
+		margin:1%;
+		padding: 8px;
+		border-radius: 10px 10px 10px 10px;
+	}
+}
